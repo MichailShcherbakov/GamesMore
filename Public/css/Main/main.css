@@ -1,0 +1,235 @@
+.layout-post
+{
+    background-color: var(--content-primary-background-color);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.layout-post:hover
+{
+    box-shadow: 0 2px 4px rgba(0,0,0,.06);
+}
+
+.post-toolbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0;
+    margin: 0 0 5px 0;
+}
+
+.post-toolbar-layout-left
+{
+    display: flex;
+}
+
+.post-type, .post-author-name, .post-time-publication
+{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.post-type
+{
+    display: flex;
+}
+
+.post-type p
+{
+    font-size: 14px;
+    font-weight: 700;
+    margin: auto 0;
+    color: var(--primary-text-color);
+}
+
+.post-type img
+{
+    width: 24px;
+    height: 24px;
+    margin: auto 0;
+    margin-right: 10px;
+}
+
+.post-type:hover p
+{
+    color: #0d7bcd;
+}
+
+.post-author-name
+{
+    display: flex;
+}
+
+.post-author-name p
+{
+    font-size: 14px;
+    margin: auto 0;
+    color: var(--primary-text-color);
+}
+
+.post-author-name:hover p
+{
+    color: #0d7bcd;
+}
+
+.post-time-publication
+{
+    display: flex;
+}
+
+.post-time-publication p
+{
+    font-size: 14px;
+    margin: auto 0;
+    color: var(--secondary-text-color);
+}
+
+.post-time-publication:hover p
+{
+    color: #0d7bcd;
+}
+
+.btn-control
+{
+    cursor: pointer;
+}
+
+.post-title h2
+{
+    font-size: 22px;
+    padding: 0 20px;
+    margin: 15px 0;
+    color: var(--primary-text-color);
+}
+
+.post-content-text
+{
+    padding: 0 20px;
+}
+
+.post-content-text p
+{
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.6em;
+    color: var(--primary-text-color);
+}
+
+.post-content-image
+{
+    display: flex;
+}
+
+.post-content-image img
+{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.post-footer-layout
+{
+    display: flex;
+    padding: 0 20px 15px;
+    justify-content: space-between;
+}
+
+.post-footer-layout-left
+{
+    display: flex;
+}
+
+.post-footer-layout-right
+{
+    display: flex;
+}
+
+.btn-comments
+{
+    margin-right: 15px;
+}
+
+.btn-comments, .btn-bookmarks
+{
+    display: flex;
+    cursor: pointer;
+}
+
+.btn-comments *, .btn-bookmarks *
+{
+    margin: auto 0;
+}
+
+.btn-comments img, .btn-bookmarks img
+{
+    width: 20px;
+    height: 20px;
+}
+
+.btn-comments p, .btn-bookmarks p
+{
+    font-size: 15px;
+    color: var(--secondary-text-color);
+    margin-left: 6px; 
+}
+
+.btn-comments:hover p 
+{
+    color: #0d7bcd;
+}
+
+.btn-bookmarks:hover p
+{
+    color: #E92A40;
+}
+
+.btn-comments:hover img
+{
+    content: url("/Public/img/speech-bubble-hovered.png");
+}
+
+.btn-bookmarks:hover img
+{
+    content: url("/Public/img/bookmark-hovered.png");
+}
+
+.img-substrate img
+{
+    max-width: 55%;
+    margin: 0 auto;
+}
+
+.post-wrapper
+{
+    cursor: pointer;
+}
+
+/* BUTTON */
+
+.btn-control
+{
+    display: flex;
+    cursor: pointer;
+    height: 34px;
+    margin: 0 6px;
+    padding: 0 10px;
+    box-shadow: 0 2px 1px rgba(0,0,0,.05);
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+}
+
+.btn-control *
+{
+    margin: auto 0;
+}
+
+.btn-control p
+{
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+.btn-control img
+{
+    width: 18px;
+    height: 18px;
+}

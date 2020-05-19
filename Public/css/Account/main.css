@@ -1,0 +1,204 @@
+.page-header-layout,
+.page-tabs-layout,
+.page-content-layout
+{
+    width: 640px;
+    margin: 0 auto;
+    background-color: var(--content-primary-background-color);
+}
+
+.page-header
+{
+    display: flex;
+}
+
+.page-header-layout
+{
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+
+.user-logo-layout
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-logo-layout *
+{
+    margin: auto 0;
+}
+
+.user-avatar img
+{
+    width: 54px;
+    height: 54px;
+}
+
+.user-control-buttons
+{
+    display: flex;
+}
+
+.user-control-buttons *
+{
+    margin: auto 0;
+}
+
+.user-name-layout
+{
+    margin-top: 15px;
+}
+
+.user-name-layout p
+{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--primary-text-color);
+}
+
+.user-date-registration-layout
+{
+    font-size: 13px;
+    color: var(--secondary-text-color);
+}
+
+.page-tabs
+{
+    display: flex;
+}
+
+.page-tabs-layout
+{
+    display: flex;
+    height: 50px;
+    padding: 0 15px;
+    background-color: var(--content-primary-background-color);
+    margin: 0 auto;
+    margin-top: 2px;
+}
+
+.tab-layout
+{
+    display: flex;
+    cursor: pointer;
+    height: 100%;
+    margin: 0 8px;
+}
+
+.tab-layout *
+{
+    margin: auto 0;
+}
+
+.tab-layout p
+{
+    font-size: 15px;
+    color: var(--secondary-text-color);
+}
+
+.tab-layout:hover p
+{
+    color: #4086E0;
+}
+
+.tab-layout-title
+{
+    display: flex;
+    height: 100%;
+}
+
+.tab-layout-title *
+{
+    margin: auto 0;
+}
+
+.tab-is-active .tab-layout-title
+{
+    border-bottom: 2px solid #4086E0 !important;
+    cursor: default !important;
+}
+
+.tab-is-active:hover p
+{
+    color: var(--primary-text-color) !important;
+}
+
+.tab-is-active p
+{
+    font-weight: 600;
+    color: var(--primary-text-color);
+}
+
+.btn-create-post
+{
+    display: inline;
+    color:  var(--link-text-color);
+    border-bottom: 1px solid var(--link-text-color);
+}
+
+.btn-create-post:hover
+{
+    text-decoration: none;
+    color: var(--danger-text-color);
+    border-bottom: 1px solid var(--danger-text-color);
+}
+
+.font-weight-6
+{
+    font-weight: 600;
+}
+
+.tab-layout span
+{
+    font-size: 11px;
+    line-height: 1.45em;
+    color: #fff;
+    background-color: #4086e0;
+    padding: 0 7px;
+    border-radius: 1.45em;
+    margin-left: 6px;
+}
+
+.page-content-layout
+{
+    display: flex;
+    margin-top: 20px;
+}
+
+.page-content-block
+{
+    width: 640px;
+    padding: 20px 30px;
+    margin: 0 auto;
+    background-color: var(--content-primary-background-color);
+}
+
+.page-content-block--proposal p
+{
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+.page-content-block--settings
+{
+
+}
+
+.page-content-block--settings--dark-mode
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-content-block--settings--dark-mode *
+{
+    margin: auto 0;
+}
+
+.page-content-block--settings--dark-mode p
+{
+    color: var(--primary-text-color);
+}

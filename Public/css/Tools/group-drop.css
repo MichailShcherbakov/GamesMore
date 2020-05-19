@@ -1,0 +1,65 @@
+.group-drop
+{
+    position: relative;
+    display: inline-flex;
+}
+
+.group-drop-button
+{
+    display: inline-flex;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.group-drop-menu
+{
+    position: absolute;
+    display: none;
+    overflow: auto;
+    z-index: 2;
+}
+
+.group-drop-menu--active
+{
+    display: inline !important;
+}
+
+.group-drop-menu--top-left
+{
+    top: 0;
+    left: 0;
+}
+
+.group-drop-menu--top-right
+{
+    top: 0;
+    right: 0;
+}
+
+.group-drop-menu--bottom-left
+{
+    bottom: 0;
+    left: 0;
+}
+
+.group-drop-menu--bottom-right
+{
+    bottom: 0;
+    right: 0;
+}
+
+
+.group-drop-menu-item
+{
+    width: 100%;
+    border: 0;
+    display: flex;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.group-drop-menu-item--active
+{
+   
+}

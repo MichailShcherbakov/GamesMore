@@ -1,0 +1,188 @@
+.draft
+{
+    padding-top: 30px;
+}
+
+/* CONTENT */
+
+.content-header-info
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-header-layout-left
+{
+    display: flex;
+}
+
+.content-header-layout-left *
+{
+    margin-top: auto 0;
+}
+
+.btn-community
+{
+    display: flex;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.btn-community *
+{
+    margin: auto 0;
+}
+
+.btn-community p
+{
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--primary-text-color);
+}
+
+.btn-community img
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.btn-community:hover p
+{
+    color: var(--primary-text-color-hover);
+}
+
+.btn-author-name
+{ 
+    display: flex;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.btn-author-name p
+{
+    display: inline;
+    margin: auto 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--primary-text-color);
+}
+
+.btn-author-name:hover p
+{
+    color: var(--primary-text-color-hover);
+}
+
+.time-publication
+{
+    display: flex;
+    margin-right: 25px;
+}
+
+.time-publication p
+{
+    font-size: 15px;
+    margin: auto 0;
+    color: var(--secondary-text-color);
+}
+
+.views
+{
+    display: flex;
+    margin-right: 25px;
+}
+
+.views *
+{
+    margin: auto 0;
+}
+
+.views p
+{
+    font-size: 15px;
+    color: var(--secondary-text-color);
+}
+
+.views img
+{
+    margin-right: 10px;
+}
+
+/* CONTENT-TOOLBAR */
+
+.content-toolbar-block
+{
+    display: flex;
+}
+
+.btn-comments
+{
+    margin-right: 40px;
+}
+
+/* BLOCKS */
+
+.content-block
+{
+    margin: 18px 0;
+}
+
+.content-block--main-title
+{
+    font-size: 36px;
+    font-weight: 500;
+    word-wrap: break-word;
+    margin: 10px 0;
+    color: var(--primary-text-color);
+}
+
+.content-block--title
+{
+    color: var(--primary-text-color);
+}
+
+.content-block--title--h2
+{
+    font-size: 27px !important;
+}
+
+.content-block--title--h3
+{
+    font-size: 22px !important;
+}
+
+.content-block--title--h4
+{
+    font-size: 19px !important;
+}
+
+.content-block--text
+{
+    font-size: 18px;
+    margin: 18px 0;
+    color: var(--primary-text-color);
+}
+
+
+.content-block--media
+{
+    display: flex;
+}
+
+.content-block--media img
+{
+    width: 100%;
+}
+
+.img-substrate img
+{
+    max-width: 55%;
+    margin: 0 auto;
+    background-color: var(--content-secondary-background-color);
+}
+
+.btn-edit
+{
+    border: none !important;
+    box-shadow: none !important;   
+}

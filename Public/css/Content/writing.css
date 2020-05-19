@@ -1,0 +1,26 @@
+.layout-page
+{
+    width: 100%;
+    margin: 0 !important;
+}
+
+.page-writing
+{
+    position: relative;
+    background-color: #fff;
+    margin-top: 45px;
+}
+
+.page-toolbar-info-writing,
+.page-content-title,
+.page-content-footer
+{
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.page-toolbar-info-writing
+{
+    display: flex;
+    margin-bottom: 12px;
+}
